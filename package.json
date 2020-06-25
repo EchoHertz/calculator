@@ -3,6 +3,7 @@
         "build": "sass styles/index.scss dist/css/index.css & tsc"
     },
     "dependencies": {
+        "sass": "^1.26.9",
         "typescript": "^3.9.5"
     }
 }
