@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "build": "sass styles/index.scss dist/css/index.css & tsc"
+    },
+    "dependencies": {
+        "typescript": "^3.9.5"
+    }
+}

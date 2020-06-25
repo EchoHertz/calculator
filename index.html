@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="wrap">
+        <div class="calc-container">
+            <form name="form">
+                <input type="text" id="usrInput" name="usrInput" class="input-text" />
+            </form>
+            <table>
+                <tr>
+                    <td><input type="button" class="btn" value="C" onclick="clean()"></td>
+                    <td><input type="button" class="btn" value="<" onclick="del()" ></td>
+                    <td><input type="button" class="btn" value="/" onclick="typing(this.value)" ></td>
+                    <td><input type="button" class="btn" value="*" onclick="typing(this.value)" ></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="btn" value="7" onclick="typing(this.value)" ></td>
+                    <td><input type="button" class="btn" value="8" onclick="typing(this.value)" ></td>
+                    <td><input type="button" class="btn" value="9" onclick="typing(this.value)" ></td>
+                    <td><input type="button" class="btn" value="-" onclick="typing(this.value)" ></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="btn" value="4" onclick="typing(this.value)" ></td>
+                    <td><input type="button" class="btn" value="5" onclick="typing(this.value)" ></td>
+                    <td><input type="button" class="btn" value="6" onclick="typing(this.value)" ></td>
+                    <td><input type="button" class="btn" value="+" onclick="typing(this.value)" ></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="btn" value="1" onclick="typing(this.value)" ></td>
+                    <td><input type="button" class="btn" value="2" onclick="typing(this.value)" ></td>
+                    <td><input type="button" class="btn" value="3" onclick="typing(this.value)" ></td>
+                    <td rowspan="2"><input type="button" class="btn double-h" value="=" onclick="calculate()" ></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="button" class="btn double-w" value="0" onclick="typing(this.value)" ></td>
+                    <td><input type="button" class="btn" value="." onclick="typing(this.value)" ></td>
+                </tr>
+            </table>
+            
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

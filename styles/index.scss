@@ -1,0 +1,47 @@
+$width: 50px;
+$height: 50px;
+$background: linear-gradient();
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    background: linear-gradient(to right, #ffc0d6, #6b6bf7);
+    height: 1000px;
+    width: 100%;
+}
+.wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.input-text{
+    width: $width * 4;
+    height: $height;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.btn {
+    width: $width;
+    height: $height;
+    font-size: 25px;
+    margin: 4px;
+    background-color: gray;
+} .double-w {
+    width: $width * 2;
+} .double-h {
+    height: $height * 2;
+}
+
+.usrInput {
+    width: 217px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+}
+    
