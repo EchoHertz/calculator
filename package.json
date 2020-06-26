@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "build": "sass styles/index.scss dist/css/index.css & tsc"
+        "build": "sass styles/index.scss styles/index.css & tsc"
     },
     "dependencies": {
         "sass": "^1.26.9",
